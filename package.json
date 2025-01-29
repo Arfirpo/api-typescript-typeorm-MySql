@@ -1,0 +1,31 @@
+{
+  "name": "api-typescript-typeorm",
+  "module": "app.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run build/app.js",
+    "dev": "bun run src/index.ts --hot",
+    "build": "bun build src/index.ts --outdir build/"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.12.0",
+    "mysql2": "^3.12.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "^4.4.0",
+    "express": "^4.21.2",
+    "finalhandler": "^1.3.1",
+    "iconv-lite": "^0.6.3",
+    "morgan": "^1.10.0",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20"
+  }
+}
